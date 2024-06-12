@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff4d4d;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.gallery {
+    background-color: #ffe6e6;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallery h1 {
+    color: #ff4d4d;
+}
+
+.testimonials {
+    background-color: #ffcccc;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #ff4d4d;
+}
+
+.testimonials h3 {
+    color:darksalmon
+}
+.button{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #e42a2a;
+    transform: scale(1.05);
+  }
+
+  .button:active {
+    background-color: #ff4d4d;
+    transform: scale(0.95);
+  }
+footer {
+    background-color: #ff4d4d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
