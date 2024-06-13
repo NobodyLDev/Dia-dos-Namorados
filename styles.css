@@ -34,6 +34,21 @@ header {
 .testimonials h3 {
     color:darksalmon
 }
+.historia h1{
+    color:#d82424
+    
+}
+.historia h4{
+   
+    color:#e93d3d; 
+    padding: 40px;
+}
+.planos h1{
+    color:#d82424
+}
+.planos h3{
+    color:#e93d3d
+}
 .button{
     display: inline-block;
     padding: 15px 30px;
@@ -62,4 +77,98 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #f64949;
+    padding: 20px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.carousel-slide img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.carousel-slide h3 {
+    margin-top: 10px;
+    color: #dc3e3e;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+button.button {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+  
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #f64949;
+}
+
+button.button:hover {background-color: #eb5454}
+
+button.button:active {
+    background-color: #dc3e3e;
+    box-shadow: 1 px;
+    transform: translateY(4px);
+}
+
+section.testimonials {
+    text-align: center;
+    padding: 20px;
+}
+
+section.testimonials img {
+    margin: 10px;
 }
